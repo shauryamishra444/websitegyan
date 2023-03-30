@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Error 404: Page Not Found</title>
+	<style>
+		body {
+			background-color: #222;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		
+		h1 {
+			font-size: 4em;
+			margin-top: 100px;
+		}
+		
+		p {
+			font-size: 1.5em;
+			margin-top: 20px;
+		}
+
+		@keyframes background-animation {
+			from {
+				background-position: 0 0;
+			}
+			to {
+				background-position: 100% 100%;
+			}
+		}
+
+		.container {
+			background-image: url('https://media.tenor.com/panVipWEhqsAAAAC/hacker-glitch.gif');
+			background-size: cover;
+			background-position: center;
+			animation: background-animation 15s ease infinite;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: -1;
+		}
+
+		@media screen and (max-width: 600px) {
+			h1 {
+				font-size: 2em;
+			}
+			p {
+				font-size: 1em;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container"></div>
+	<h1>Error 404: Page Not Found</h1>
+	<p>Sorry, the page you're looking for doesn't exist.</p>
+</body>
+</html>
